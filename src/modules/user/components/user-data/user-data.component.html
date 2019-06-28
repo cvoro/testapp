@@ -1,0 +1,13 @@
+<div class="card-wrapper">
+        <mat-card>
+            <mat-card-title>User info:</mat-card-title>
+            <mat-card-content>  User id:  {{user?.id}}</mat-card-content>
+            <mat-card-content>First name: {{user?.first_name}}</mat-card-content>
+            <mat-card-content>Last name: {{user?.last_name}} </mat-card-content>
+            <mat-card-content>email: {{user?.email}} </mat-card-content>
+            <mat-card-content><img src="{{user?.avatar}}" /> </mat-card-content>
+            <mat-card-actions>
+                <button mat-stroked-button (click)="back()">Back</button>
+            </mat-card-actions>
+        </mat-card>
+</div>
